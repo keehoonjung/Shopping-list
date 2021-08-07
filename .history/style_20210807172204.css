@@ -1,0 +1,18 @@
+body {
+  background-color: beige;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin: auto;
+  background-color: rgb(246, 246, 255);
+  height: 600px;
+  width: 400px;
+  top: 40px;
+  border: 1px solid;
+  border-radius: 24px;
+}

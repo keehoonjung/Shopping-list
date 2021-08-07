@@ -1,0 +1,12 @@
+body {
+  background-color: beige;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin-top: 20px;
+}

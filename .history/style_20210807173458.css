@@ -59,8 +59,5 @@ button {
 }
 
 .create__Btn {
-  margin-top: 12px;
-  font-size: 30px;
-  background-color: white;
-  border-radius: 50%;
+  font-size: 24px;
 }

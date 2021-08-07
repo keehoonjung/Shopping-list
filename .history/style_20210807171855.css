@@ -1,0 +1,16 @@
+body {
+  background-color: beige;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin-top: 60px;
+  background-color: rgb(246, 246, 255);
+  height: 600px;
+  width: 400px;
+  border-radius: 4px;
+}
