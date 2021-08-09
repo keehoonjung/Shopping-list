@@ -8,7 +8,13 @@ const deleteBtn = document.querySelector(".delete__Btn");
 createBtn.addEventListener("click", (event) => {
   const text = inputText.value;
   const list = document.createElement("li");
-  createList(list, text);
+  list.innerHTML = `
+  <span> ${text} </span>
+  <button class="delete__Btn">
+      <i class="fas fa-trash-alt"></i>
+  </button>`;
+  shoppingList.appendChild(list);
+  inputText.value = "";
 });
 
 shoppingList.addEventListener("click", (event) => {
@@ -20,24 +26,6 @@ shoppingList.addEventListener("click", (event) => {
 
 function enterkey() {
   if (window.event.keyCode == 13) {
-    const text = inputText.value;
-    const list = document.createElement("li");
-    createList(list, text);
+    console.log(enter);
   }
-}
-
-function createList(list, text) {
-  if (text === "") {
-    inputText.focus();
-    return;
-  }
-  list.innerHTML = `
-    <span> ${text} </span>
-    <button class="delete__Btn">
-        <i class="fas fa-trash-alt"></i>
-    </button>`;
-  shoppingList.appendChild(list);
-  list.scrollIntoView({ block: "center" });
-  inputText.value = "";
-  inputText.focus();
 }

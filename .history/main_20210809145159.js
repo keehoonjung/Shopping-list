@@ -37,7 +37,6 @@ function createList(list, text) {
         <i class="fas fa-trash-alt"></i>
     </button>`;
   shoppingList.appendChild(list);
-  list.scrollIntoView({ block: "center" });
   inputText.value = "";
   inputText.focus();
 }

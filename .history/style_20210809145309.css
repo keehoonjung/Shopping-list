@@ -34,7 +34,7 @@ button {
 }
 
 .container {
-  margin: auto;
+  margin: 0;
   background-color: rgb(246, 246, 255);
   height: 620px;
   width: 400px;

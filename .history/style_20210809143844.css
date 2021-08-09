@@ -34,7 +34,8 @@ button {
 }
 
 .container {
-  margin: auto;
+  margin: 0;
+  display: inline-block;
   background-color: rgb(246, 246, 255);
   height: 620px;
   width: 400px;
@@ -55,7 +56,6 @@ button {
     rgba(127, 188, 242, 1) 100%
   );
   font-size: 30px;
-  font-weight: bold;
   color: white;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;

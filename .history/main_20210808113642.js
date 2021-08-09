@@ -23,21 +23,16 @@ function enterkey() {
     const text = inputText.value;
     const list = document.createElement("li");
     createList(list, text);
+    inputText.focus();
   }
 }
 
 function createList(list, text) {
-  if (text === "") {
-    inputText.focus();
-    return;
-  }
   list.innerHTML = `
     <span> ${text} </span>
     <button class="delete__Btn">
         <i class="fas fa-trash-alt"></i>
     </button>`;
   shoppingList.appendChild(list);
-  list.scrollIntoView({ block: "center" });
   inputText.value = "";
-  inputText.focus();
 }

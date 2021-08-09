@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
@@ -34,28 +33,20 @@ button {
 }
 
 .container {
-  margin: auto;
+  margin: 0;
+  display: inline-block;
   background-color: rgb(246, 246, 255);
-  height: 620px;
+  height: 700px;
   width: 400px;
   border-radius: 24px;
   transform: translateY(40px);
-  -webkit-box-shadow: 4px 5px 8px 4px #949494;
-  box-shadow: 4px 5px 8px 4px #949494;
+  -webkit-box-shadow: 4px 5px 8px 4px #4a4a4a;
+  box-shadow: 4px 5px 8px 4px #4a4a4a;
 }
 
 .header {
-  background: rgb(227, 120, 233);
-  background: rgba(237, 193, 211);
-
-  background: linear-gradient(
-    166deg,
-    rgba(237, 193, 211, 1) 0%,
-    rgba(219, 192, 216, 1) 35%,
-    rgba(127, 188, 242, 1) 100%
-  );
+  background-color: blue;
   font-size: 30px;
-  font-weight: bold;
   color: white;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -80,14 +71,7 @@ button {
 }
 
 .footer {
-  background: rgba(237, 193, 211);
-
-  background: linear-gradient(
-    166deg,
-    rgba(237, 193, 211, 1) 0%,
-    rgba(219, 192, 216, 1) 35%,
-    rgba(127, 188, 242, 1) 100%
-  );
+  background-color: blue;
   height: 65px;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
@@ -96,12 +80,6 @@ button {
 .create__Btn {
   margin-top: 12px;
   font-size: 30px;
-  background-color: black;
-  color: white;
+  background-color: white;
   border-radius: 50%;
-  transition: all 300ms ease-in;
-}
-
-.create__Btn:hover {
-  transform: scale(1.1);
 }
