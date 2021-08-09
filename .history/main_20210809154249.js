@@ -25,6 +25,13 @@ inputText.addEventListener("keydown", (event) => {
     createList(list, text);
   }
 });
+function enterkey() {
+  if (window.event.keyCode == 13) {
+    const text = inputText.value;
+    const list = document.createElement("li");
+    createList(list, text);
+  }
+}
 
 function createList(list, text) {
   if (text === "") {
