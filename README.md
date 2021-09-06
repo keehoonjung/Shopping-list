@@ -1,2 +1,4 @@
 # Shopping-list
-add and delete shopping list web page
+-----
+프로젝트 선정 이유
++ JavaScript 연습
